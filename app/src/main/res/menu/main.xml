@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_sugestoes_e_criticas"
+        android:orderInCategory="100"
+        android:title="Sugestões e Críticas"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_termos_e_condicoes"
+        android:orderInCategory="100"
+        android:title="Termos e Condições"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_sobre_o_sincabs"
+        android:orderInCategory="100"
+        android:title="Sobre o Sincabs"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_desconectar"
+        android:orderInCategory="100"
+        android:title="Desconectar"
+        app:showAsAction="never" />
+</menu>

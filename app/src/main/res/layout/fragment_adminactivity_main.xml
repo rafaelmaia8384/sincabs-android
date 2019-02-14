@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorWhite"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/buttonSolicitacoes"
+            android:onClick="buttonSolicitacoes"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:background="@drawable/background_button"
+            android:textColor="@color/colorWhite"
+            android:clickable="true"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:layout_marginBottom="10dp"
+            android:text="Solicitações de Análise" />
+
+        <Button
+            android:id="@+id/buttonSugestoes"
+            android:onClick="buttonSugestoes"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:background="@drawable/background_button"
+            android:textColor="@color/colorWhite"
+            android:clickable="true"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:layout_marginBottom="10dp"
+            android:text="Sugestões e Críticas" />
+
+        <Button
+            android:id="@+id/buttonDenunciasUsuarios"
+            android:onClick="buttonDenunciasUsuarios"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:background="@drawable/background_button"
+            android:textColor="@color/colorWhite"
+            android:clickable="true"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:layout_marginBottom="10dp"
+            android:text="Denúncias de Usuários" />
+
+        <Button
+            android:id="@+id/buttonDenunciasSuspeitos"
+            android:onClick="buttonDenunciasSuspeitos"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:background="@drawable/background_button"
+            android:textColor="@color/colorWhite"
+            android:clickable="true"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:layout_marginBottom="10dp"
+            android:text="Denúncias de Suspeitos" />
+
+        <Button
+            android:id="@+id/buttonImagensAvaliacao"
+            android:onClick="buttonImagensAvaliacao"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:background="@drawable/background_button"
+            android:textColor="@color/colorWhite"
+            android:clickable="true"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:layout_marginBottom="10dp"
+            android:text="Imagens para Avaliação" />
+
+        <Button
+            android:id="@+id/buttonUsuariosBloqueados"
+            android:onClick="buttonUsuariosBloqueados"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:background="@drawable/background_button"
+            android:textColor="@color/colorWhite"
+            android:clickable="true"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:layout_marginBottom="10dp"
+            android:text="Usuários Bloqueados" />
+
+        <Button
+            android:id="@+id/buttonLimparCadastros"
+            android:onClick="buttonLimparCadastros"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:background="@drawable/background_button"
+            android:textColor="@color/colorWhite"
+            android:clickable="true"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:layout_marginBottom="10dp"
+            android:text="Limpar Cadastros Antigos" />
+
+    </LinearLayout>
+
+</RelativeLayout>

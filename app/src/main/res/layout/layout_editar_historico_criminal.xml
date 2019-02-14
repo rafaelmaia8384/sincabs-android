@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+
+        <CheckBox
+            android:id="@+id/check_furto"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="55"
+            android:textSize="12sp"
+            android:text="Furto"/>
+
+        <CheckBox
+            android:id="@+id/check_roubo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="45"
+            android:textSize="12sp"
+            android:text="Roubo"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+
+        <CheckBox
+            android:id="@+id/check_roubo_bancos"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="55"
+            android:layout_gravity="center"
+            android:textSize="12sp"
+            android:text="Roubo a bancos/afins"/>
+
+        <CheckBox
+            android:id="@+id/check_trafico"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="45"
+            android:layout_gravity="center"
+            android:textSize="12sp"
+            android:text="Tráfico"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+
+        <CheckBox
+            android:id="@+id/check_homicidio"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="55"
+            android:layout_gravity="center"
+            android:textSize="12sp"
+            android:text="Homicídio/tentativa"/>
+
+        <CheckBox
+            android:id="@+id/check_latrocinio"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="45"
+            android:layout_gravity="center"
+            android:textSize="12sp"
+            android:text="Latrocínio"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+
+        <CheckBox
+            android:id="@+id/check_estupro"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="55"
+            android:layout_gravity="center"
+            android:textSize="12sp"
+            android:text="Estupro"/>
+
+        <CheckBox
+            android:id="@+id/check_estelionato"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="45"
+            android:layout_gravity="center"
+            android:textSize="12sp"
+            android:text="Estelionato"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+
+        <CheckBox
+            android:id="@+id/check_posse_porte"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="55"
+            android:layout_gravity="center"
+            android:textSize="12sp"
+            android:text="Posse/porte de arma"/>
+
+        <CheckBox
+            android:id="@+id/check_receptacao"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="45"
+            android:layout_gravity="center"
+            android:textSize="12sp"
+            android:text="Receptação"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+
+        <CheckBox
+            android:id="@+id/check_contrabando"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="55"
+            android:layout_gravity="center"
+            android:textSize="12sp"
+            android:text="Contrabando"/>
+
+        <CheckBox
+            android:id="@+id/check_outros"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="45"
+            android:layout_gravity="center"
+            android:textSize="12sp"
+            android:text="Outros"/>
+
+    </LinearLayout>
+
+</LinearLayout>

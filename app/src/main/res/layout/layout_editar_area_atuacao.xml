@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/checkBoxAC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="AC"/>
+
+            <CheckBox
+                android:id="@+id/checkBoxAL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="AL"/>
+
+            <CheckBox
+                android:id="@+id/checkBoxAM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="AM"/>
+
+            <CheckBox
+                android:id="@+id/checkBoxAP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="AP"/>
+
+            <CheckBox
+                android:id="@+id/checkBoxBA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="BA"/>
+
+            <CheckBox
+                android:id="@+id/checkBoxCE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="CE"/>
+
+            <CheckBox
+                android:id="@+id/checkBoxDF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="DF"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/checkBoxES"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="ES"/>
+
+            <CheckBox
+                android:id="@+id/checkBoxGO"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="GO"/>
+
+            <CheckBox
+                android:id="@+id/checkBoxMA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="MA"/>
+
+            <CheckBox
+                android:id="@+id/checkBoxMG"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="MG"/>
+
+            <CheckBox
+                android:id="@+id/checkBoxMS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="MS"/>
+
+            <CheckBox
+                android:id="@+id/checkBoxMT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="MT"/>
+
+            <CheckBox
+                android:id="@+id/checkBoxPA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="PA"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/checkBoxPB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="PB"/>
+
+            <CheckBox
+                android:id="@+id/checkBoxPE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="PE"/>
+
+            <CheckBox
+                android:id="@+id/checkBoxPI"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="PI"/>
+
+            <CheckBox
+                android:id="@+id/checkBoxPR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="PR"/>
+
+            <CheckBox
+                android:id="@+id/checkBoxRJ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="RJ"/>
+
+            <CheckBox
+                android:id="@+id/checkBoxRN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="RN"/>
+
+            <CheckBox
+                android:id="@+id/checkBoxRO"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="RO"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/checkBoxRR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="RR"/>
+
+            <CheckBox
+                android:id="@+id/checkBoxRS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="RS"/>
+
+            <CheckBox
+                android:id="@+id/checkBoxSC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="SC"/>
+
+            <CheckBox
+                android:id="@+id/checkBoxSE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="SE"/>
+
+            <CheckBox
+                android:id="@+id/checkBoxSP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="SP"/>
+
+            <CheckBox
+                android:id="@+id/checkBoxTO"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="TO"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

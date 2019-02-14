@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            android:text="Seu cadastro não foi aprovado"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginBottom="20dp"
+            android:padding="5dp"
+            android:src="@drawable/icon_error"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="Se desejar, cancele seu cadastro atual e envie suas informações novamente através de um novo cadastro. Certifique-se de que as informações fornecidas estejam de acordo com o que consta em sua identidade policial/funcional."/>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:onClick="button_back"
+                android:background="@drawable/background_button_circle"
+                android:textColor="@color/colorWhite"
+                android:clickable="true"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"/>
+
+            <Button
+                android:id="@+id/buttonCancelarCadastro"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/background_button"
+                android:textColor="@color/colorWhite"
+                android:clickable="true"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:layout_marginBottom="10dp"
+                android:text="Cancelar meu cadastro" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

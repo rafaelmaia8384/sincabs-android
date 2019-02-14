@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Tenha acesso e compartilhe informações sobre criminosos do Brasil inteiro." />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/img_collaborate"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Exclusivo para os profissionais de Segurança Pública e Militares das Forças Armadas do Brasil" />
+
+        <Button
+            android:id="@+id/buttonJaSouCadastrado"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/background_button"
+            android:textColor="@color/colorWhite"
+            android:clickable="true"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:text="Já sou cadastrado" />
+
+        <Button
+            android:id="@+id/buttonQueroMeCadastrar"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/background_button"
+            android:textColor="@color/colorWhite"
+            android:clickable="true"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:layout_marginBottom="10dp"
+            android:text="Quero me cadastrar" />
+
+    </LinearLayout>
+
+</ScrollView>
